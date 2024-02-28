@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(./imagenes/fondo\ negro.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+   animation-duration: 10s infinite;
+
+}
+.redes a img{
+    width: 40px;
+    display: inline-block;
+    margin: 15px;
+
+
+}
+.info{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+
+}
+header{
+    max-width: 1500px;
+    margin: auto;
+    padding: 3opx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 20px;
+
+}
+ nav  li a {
+    text-decoration: none;
+    color: rgb(240, 239, 239);
+
+
+}
+section{
+    padding-top:100px ;
+    text-align: center;
+    
+}
+section h1{
+    font-size: 80px;
+    color: aliceblue;
+
+}
+
+nav ul li a :hover{
+    text-decoration: overline;
+}
+section a {
+    text-decoration: none;
+    color: rgb(233, 236, 236);
+    border: 3px solid ;
+    padding: 10px 15 px;
+    font-size: 18px;
+
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+
+
